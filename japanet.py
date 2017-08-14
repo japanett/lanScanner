@@ -19,7 +19,7 @@ def banner():
     subprocess.call('clear', shell = True) # Clear shell
     # print termcolor.colored('string', 'color')
     print termcolor.colored((figlet_format('Japanet', font = 'larry3d')), 'green')
-    print termcolor.colored(("\t\t\t\t\tLAN Scanner v1.0"), 'red')
+    print termcolor.colored(("\t\t\t\t\tLAN Scanner v0.1"), 'red')
     return
 
 def scanLAN():
@@ -64,13 +64,13 @@ def scanLAN():
     
         print  mac, " - ", ip, " - ", (obj['result']['company'])
         # Displaying MAC - IP - Company
-        
-        teste = (mac, str(ip), str((obj['result']['company'])))
-        writeFile(path, teste) # Writing to file
-        
+        if yorn == 'y': 
+            teste = (mac, str(ip), str((obj['result']['company'])))
+            writeFile(path, teste) # Writing to file
+            print "\n[*] File stored as: ", path   
+
     stop_time = datetime.now() # Stop clock for total duration
     total_time = stop_time - start_time
-    print "\n[*] File stored as: ", path
     print "\n[*] Scan Completed (TIME: %s)" %(total_time)
     return
 
