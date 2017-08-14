@@ -5,7 +5,7 @@ Simple python(2.7) script to scan LAN network
 
 ## Features
 - Finds live hosts and show their IP, MAC adresses and more
-- Simple to use
+- Easy to use
 - Save scan to a file
 
 ## Upcoming features
