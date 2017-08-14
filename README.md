@@ -1,19 +1,24 @@
-LAN Scanner
-by Japanet
-=================
-![alt text](https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/20799454_1537312016334667_1826930213044420635_n.jpg?oh=be47ecaaad92168e84c06d9548e3967f&oe=59F3C76D)
+<p align="center">
+  <img width="655" height="264" src="https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/20799454_1537312016334667_1826930213044420635_n.jpg?oh=be47ecaaad92168e84c06d9548e3967f&oe=59F3C76D">
+</p>
+Simple python(2.7) script to scan LAN network
 
+## Features
+- Finds live hosts and show their IP, MAC adresses and more
+- Simple to use
+- Save scan to a file
 
-Simple python script to scan LAN network
+## Upcoming features
+- [ ] OS Detection
+- [ ] Hostname detection
+- [ ] Open ports and services
 
-1. Find hosts that are on the LAN passively
+## Install
+- Clone the repository
+- Make sure all dependecencies are installed (Still working on the requirements.txt)
 
-Alternatives
---------------
+## How to use
+- Run the script: python japanet.py
+- Do whatever you want
 
-Install
---------
-
-Pre-requisites::
-
-
+![alt text](https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/20800020_1537376329661569_5196174535915964935_n.jpg?oh=cf0deb6ff67b6054d67bc6f096b3fe27&oe=5A301762)
