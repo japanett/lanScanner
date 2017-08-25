@@ -22,3 +22,7 @@ Simple python(2.7) script to scan LAN network using scapy module
 - Do whatever you want
 
 ![alt text](https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/20800020_1537376329661569_5196174535915964935_n.jpg?oh=cf0deb6ff67b6054d67bc6f096b3fe27&oe=5A301762)
+
+## Troubleshooting
+If theres no internet connection, it will throw an error when consulting mac vendor's api.
+Just comment the lines 58 to 62 and it should be fine
