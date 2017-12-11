@@ -15,7 +15,7 @@ Simple python(2.7) script to scan LAN network using scapy module
 
 ## Install
 - Clone the repository
-- Make sure all dependecencies are installed (Still working on the requirements.txt)
+- Install the dependencies
 
 ## How to use
 - Run the script
