@@ -25,4 +25,4 @@ Simple python(2.7) script to scan LAN network. Click the image above to see a de
 
 ## Troubleshooting
 - If theres no internet connection, it will throw an error when consulting mac vendor's api.
-- You need sudo permissions to run this script
+- You need root permissions to run this script
